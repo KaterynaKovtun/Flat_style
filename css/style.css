@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script|Open+Sans:300,400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 14px;
+  color: #404040;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none !important;
+}
+.align-center {
+  align-items: center;
+}
+.color-white {
+  color: #fff;
+}
+.font-bigger {
+  font-size: 16px;
+}
+.navbar {
+  margin-top: 15px;
+}
+.navbar-brand {
+  font-size: 50px !important;
+  font-family: 'Euphoria Script', cursive;
+}
+.nav-link {
+  color: #fff !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #82a3ad  !important;
+}
+.header {
+  background-color: #f74c55;
+  margin-bottom: 40px;
+  height: 100vh;
+}
+.header-title {
+  font-size: 40px;
+}
+.btns {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  height: 40px;
+  /*width: 150px;*/
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  line-height: 0;
+  text-align: center;
+  transition: 0.2s all linear;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btns:hover {
+  color: #f74c55;
+  background-color: #fff;
+}
+.section {
+  padding: 40px 0;
+}
+.title {
+  font-size: 30px;
+}
+.subtitle {
+  font-size: 22px;
+  font-weight: 400;
+}
+.color-block {
+  height: 30px;
+  width: 37px; 
+  margin: 60px 0;
+}
+.color-orange {
+  background-color: #ee732f;
+}
+.color-red {
+  background-color: #f74c55;
+}
+.color-green {
+  background-color: #2d5f3b;
+}
+.color-black {
+  background-color: #404040;
+}
+.color-pink {
+  background-color: #fb636b;
+}
+.svg-icon {
+  height: 45px;
+}
+.card-text {
+  width: 90%;
+}
+.margin-left {
+  margin-left: 250px !important;
+}
+.margin-right {
+  margin-right: 150px !important;
+}
+.plus {
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)); 
+  margin-top: 20px;
+  float: right;
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+.plus:hover {
+  color: #ee732f;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)); 
+}
+.contact-text {
+  font-size: 42px;
+  padding: 140px 0 45px 0;
+}
+.text-bold {
+  font-weight: 700;
+}
+.margin-bottom {
+  margin-bottom: 100px;
+}
+.color-row {
+  height: 10px;
+  background: repeating-linear-gradient(to right, #ee732f 0, #ee732f 20px,
+                                                  #f74c55 20px, #f74c55 40px,
+                                                  #2d5f3b 40px, #2d5f3b 60px,
+                                                  #404040 60px, #404040 80px,
+                                                  #fb636b 80px, #fb636b 100px);
+}
+.footer {
+  background-color: #fff;
+  height: 70px;
+}
+
+/*Media scree tablet*/
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+    .navbar {
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    margin: 0;
+    display: flex;
+  }
+  .navbar-brand {
+    align-items: center;
+    margin-left: 300px;
+  }
+  .header-content {
+    width: 100%;
+  }
+   .section {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .mobile-center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .margin-left, .margin-right {
+    margin: 0 !important;
+  }
+  .color-line {
+    justify-content: center;
+  }
+  .margin-left, .margin-right {
+    margin: 0 !important;
+  }
+  .services {
+    overflow: hidden;
+  }
+}
+
+/*Media scree mobile*/
+@media screen and (max-width: 576px) {
+  .navbar {
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    margin: 0;
+    display: flex;
+  }
+  .navbar-brand {
+    align-items: center;
+    margin-left: 100px;
+  }
+  .section {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .mobile-center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .color-line {
+    justify-content: center;
+  }
+  .margin-left, .margin-right {
+    margin: 0 !important;
+  }
+  .services {
+    overflow: hidden;
+  }
+}
